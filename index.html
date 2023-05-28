@@ -11,13 +11,14 @@
   <body onload="init()">
     <main id="main">
       <div id="welcomeScreen">
-        <h2>Guess the Number <br />1 - 100</h2>
+        <h2>Guess the Number Between: <br />1 - 100</h2>
       </div>
 
       <div id="gameArea">
         <section>
           <h3 id="textOutput">Your Guess:</h3>
-          <input type="number" id="inputBox" min="1" max="100" placeholder="Number + key enter" onchange="compareNumbers()"/>          
+          <input type="number" id="inputBox" min="1" max="100" placeholder="Number" onchange="compareNumbers()"/>
+          <input class="checkout" type="button" value="&#x2714;">          
         </section>
         <section class="stats">
           <div class="info">

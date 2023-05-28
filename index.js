@@ -21,7 +21,7 @@ function compareNumbers() {
     if (attempts < maxguesses) {        
 
         if (userNumber > 100) {
-            document.getElementById('textOutput').innerHTML = 'Number Invalid! Digit a number between 1 - 100...'
+            document.getElementById('textOutput').innerHTML = '\u{1F6AB}Number Invalid! Digit a number between 1 - 100...'
             document.getElementById('inputBox').value = ''
             //attempts++ (se eu quiser que o número de tentativas seja crescente...) 
             maxguesses--

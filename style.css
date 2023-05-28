@@ -69,9 +69,15 @@
     background: transparent;
     margin: 2rem 0;
     padding: 1rem 0;
-    width: 25rem;
+    width: 9rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  input.checkout {
+    background: greenyellow;
+    width: 4rem;
+    font-size: 1.3rem;
   }
 
   .stats {
